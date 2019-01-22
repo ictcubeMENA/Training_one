@@ -8,5 +8,4 @@ def test1(benchmark):
 def test(benchmark):
     assert benchmark(is_opposite1, "ab", "AB") == True
 
-
 # py.test

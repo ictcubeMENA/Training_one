@@ -1,4 +1,4 @@
-from main import reverse_list, reverse_list1
+from main import reverse_list
 
 
 def test1(benchmark):
@@ -6,6 +6,6 @@ def test1(benchmark):
 
 
 def test(benchmark):
-    assert  benchmark(reverse_list, [1, 2, 3, 4]) == [4, 3, 2, 1]
+    assert benchmark(reverse_list, [1, 2, 3, 4]) == [4, 3, 2, 1]
 
 # py.test

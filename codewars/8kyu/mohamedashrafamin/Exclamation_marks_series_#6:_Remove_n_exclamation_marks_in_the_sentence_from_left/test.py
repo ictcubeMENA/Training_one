@@ -1,9 +1,9 @@
 import unittest
+
 from main import remove
 
 
 class TestSum(unittest.TestCase):
-
     tests = [
         # [[input], [expected]],
         [["Hi!", 1], "Hi"],

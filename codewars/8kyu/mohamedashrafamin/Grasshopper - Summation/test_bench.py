@@ -8,5 +8,4 @@ def test1(benchmark):
 def test(benchmark):
     assert benchmark(summation1, 1) == 1
 
-
 # py.test

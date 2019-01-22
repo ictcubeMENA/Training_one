@@ -1,4 +1,5 @@
 import unittest
+
 from main import seats_in_theater
 
 

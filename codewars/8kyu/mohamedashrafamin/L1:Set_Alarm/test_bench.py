@@ -8,5 +8,4 @@ def test1(benchmark):
 def test(benchmark):
     assert benchmark(set_alarm1, True, True) == False
 
-
 # py.test

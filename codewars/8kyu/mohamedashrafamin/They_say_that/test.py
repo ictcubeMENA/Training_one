@@ -1,5 +1,7 @@
 import unittest
+
 from colorama import Fore
+
 from main import is_opposite
 
 

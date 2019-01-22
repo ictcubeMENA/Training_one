@@ -1,5 +1,7 @@
 import unittest
+
 from colorama import Fore
+
 from main import DNAtoRNA
 
 
@@ -12,7 +14,7 @@ class TestSum(unittest.TestCase):
         print(Fore.GREEN + 'Test Passed')
         self.assertEqual(DNAtoRNA("GACCGCCGCC"), "GACCGCCGCC")
         print(Fore.GREEN + 'Test Passed')
-        print(Fore.GREEN+"You have passed all of the tests! :)")
+        print(Fore.GREEN + "You have passed all of the tests! :)")
 
 
 if __name__ == '__main__':
