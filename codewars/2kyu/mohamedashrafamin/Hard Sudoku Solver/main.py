@@ -4,7 +4,6 @@ def update(spots, row, col, l):
 
 
 def sudoku(puzzle):
-    """return the solved puzzle as a 2d array of 9 x 9"""
     spots = {}
     for row in range(9):
         for col in range(9):
