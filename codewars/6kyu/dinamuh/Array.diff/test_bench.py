@@ -1,17 +1,13 @@
 from main import array_diff
 from main import array_diff2
 
-def test(benchmark):
-    assert benchmark(array_diff,[], [1,2])== [], "a was [], b was [1,2], expected []"
 
+def test(benchmark):
+    assert benchmark(array_diff, [], [1, 2]) == [], "a was [], b was [1,2], expected []"
 
 
 def test2(benchmark):
-    assert benchmark(array_diff2,[], [1,2])== [], "a was [], b was [1,2], expected []"
-
-
-
-
+    assert benchmark(array_diff2, [], [1, 2]) == [], "a was [], b was [1,2], expected []"
 
 
 '''''''''''

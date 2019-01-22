@@ -5,18 +5,16 @@ grid = [
     ["x", "l", "m"],
     ["o", "f", "c"],
     ["k", "i", "t"]
-  ]
+]
 directions = ["rightT", "down", "leftT", "right", "rightT", "down", "left", "leftT"]
 
 
 def test(benchmark):
-    assert benchmark(get_password,grid,directions)=="lock"
-
+    assert benchmark(get_password, grid, directions) == "lock"
 
 
 def test2(benchmark):
-    assert benchmark(get_password2,grid,directions)=="lock"
-
+    assert benchmark(get_password2, grid, directions) == "lock"
 
 
 ''''''''''

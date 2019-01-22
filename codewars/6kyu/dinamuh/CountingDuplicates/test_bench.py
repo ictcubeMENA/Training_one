@@ -1,16 +1,13 @@
 from main import duplicate_count
 from main import duplicate_count2
 
-def test(benchmark):
-    assert benchmark(duplicate_count,"abcdea")== 1
 
+def test(benchmark):
+    assert benchmark(duplicate_count, "abcdea") == 1
 
 
 def test2(benchmark):
-    assert benchmark(duplicate_count2,"abcdea")== 1
-
-
-
+    assert benchmark(duplicate_count2, "abcdea") == 1
 
 
 ''''''''' 
@@ -26,8 +23,3 @@ Legend:
   OPS: Operations Per Second, computed as 1 / Mean
 ============================================================================ 2 passed in 2.67 seconds ====================================================================
 '''''
-
-
-
-
-

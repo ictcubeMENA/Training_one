@@ -20,12 +20,9 @@ def rotate(a, i):
     return a[:i] + a[i + 1:] + a[i]
 
 
-
-
-
 def max_rot2(n):
     s, arr = str(n), [n]
     for i in range(len(s)):
-        s = s[:i] + s[i+1:] + s[i]
+        s = s[:i] + s[i + 1:] + s[i]
         arr.append(int(s))
     return max(arr)

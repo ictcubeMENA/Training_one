@@ -1,13 +1,13 @@
 from main import remove_char
 from main import remove_char2
 
+
 def test(benchmark):
     assert benchmark(remove_char, 'country') == 'ountr'
 
 
 def test2(benchmark):
     assert benchmark(remove_char2, 'country') == 'ountr'
-
 
 
 '''''''''

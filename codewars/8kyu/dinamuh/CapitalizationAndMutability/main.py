@@ -3,7 +3,5 @@ def capitalizeWord(word):
     return w
 
 
-
-
 def capitalizeWord2(word):
     return word.capitalize()

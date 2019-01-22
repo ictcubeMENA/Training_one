@@ -1,8 +1,4 @@
-import unittest
 from main import hero
-from main import hero2
-
-
 
 
 def test_hero(benchmark):
@@ -12,4 +8,3 @@ def test_hero(benchmark):
     assert benchmark(hero(100, 40), True)
     assert benchmark(hero(1500, 751), False)
     assert benchmark(hero(0, 1), False)
-

@@ -24,11 +24,6 @@ def mxdiflg(a1, a2):
     return max(diff1, diff2)
 
 
-
-
-
-
-
 def mxdiflg2(a1, a2):
     if a1 and a2:
         return max(

@@ -1,15 +1,13 @@
 from main import square
 from main import square2
 
-def test(benchmark):
-    assert benchmark(square,2) == 4
 
+def test(benchmark):
+    assert benchmark(square, 2) == 4
 
 
 def test2(benchmark):
     assert benchmark(square2, 2) == 4
-
-
 
 
 '''''''''

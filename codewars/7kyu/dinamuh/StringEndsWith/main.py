@@ -1,18 +1,11 @@
 def solution(string, ending):
     # your code here...
-    x=len(ending)
-    stri=string[-x:]
-    if stri==ending:
-       return True
+    x = len(ending)
+    stri = string[-x:]
+    if stri == ending:
+        return True
     else:
-       return False
-
-
-
-
-
-
-
+        return False
 
 
 def solution2(string, ending):

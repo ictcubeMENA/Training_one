@@ -1,15 +1,13 @@
 from main import sum_fracts
 from main import sum_fracts2
 
+
 def test(benchmark):
     assert benchmark(sum_fracts, [[1, 3], [5, 3]]) == 2
 
 
 def test2(benchmark):
     assert benchmark(sum_fracts2, [[1, 3], [5, 3]]) == 2
-
-
-
 
 
 '''''''''

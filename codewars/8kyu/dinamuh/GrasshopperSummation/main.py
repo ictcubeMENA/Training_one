@@ -7,4 +7,4 @@ def summation(num):
 
 
 def summation2(num):
-    return (1+num) * num / 2
+    return (1 + num) * num / 2

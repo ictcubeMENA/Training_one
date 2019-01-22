@@ -1,13 +1,13 @@
 from main import reverse_list
 from main import reverse_list2
 
-def test(benchmark):
-    assert benchmark(reverse_list,[1,2,3,4])== [4,3,2,1]
 
+def test(benchmark):
+    assert benchmark(reverse_list, [1, 2, 3, 4]) == [4, 3, 2, 1]
 
 
 def test2(benchmark):
-    assert benchmark(reverse_list2,[1,2,3,4])== [4,3,2,1]
+    assert benchmark(reverse_list2, [1, 2, 3, 4]) == [4, 3, 2, 1]
 
 
 '''''''''

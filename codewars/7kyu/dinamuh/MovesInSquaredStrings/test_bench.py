@@ -1,9 +1,8 @@
-from main import vert_mirror
-from main import hor_mirror
 from main import oper
-from main import vert_mirror2
-from main import hor_mirror2
 from main import oper2
+from main import vert_mirror
+from main import vert_mirror2
+
 
 def test(benchmark):
     assert benchmark(oper, vert_mirror,
@@ -13,13 +12,6 @@ def test(benchmark):
 def test2(benchmark):
     assert benchmark(oper2, vert_mirror2,
                      "hSgdHQ\nHnDMao\nClNNxX\niRvxxH\nbqTVvA\nwvSyRu") == "QHdgSh\noaMDnH\nXxNNlC\nHxxvRi\nAvVTqb\nuRySvw"
-
-
-
-
-
-
-
 
 
 '''''''''

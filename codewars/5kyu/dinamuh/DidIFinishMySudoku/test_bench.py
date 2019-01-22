@@ -1,5 +1,4 @@
 from main import done_or_not
-from main import done_or_not2
 
 
 def test(benchmark):

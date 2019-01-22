@@ -1,5 +1,5 @@
 from main import gps
-from main import gps2
+
 
 def test(benchmark):
     assert benchmark(gps, 19, [0.0]) == 0
@@ -7,10 +7,6 @@ def test(benchmark):
 
 def test2(benchmark):
     assert benchmark(gps, 19, [0.0]) == 0
-
-
-
-
 
 
 '''''''''

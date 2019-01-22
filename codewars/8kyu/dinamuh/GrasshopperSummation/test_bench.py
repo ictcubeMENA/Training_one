@@ -1,9 +1,9 @@
 from main import summation
 from main import summation2
 
-def test(benchmark):
-    assert benchmark(summation,1) == 1
 
+def test(benchmark):
+    assert benchmark(summation, 1) == 1
 
 
 def test2(benchmark):

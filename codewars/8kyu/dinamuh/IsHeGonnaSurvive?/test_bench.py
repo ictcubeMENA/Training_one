@@ -1,14 +1,12 @@
 from main import hero
-from main import hero2
+
 
 def test(benchmark):
-    assert benchmark(hero,10, 5) ==True
-
+    assert benchmark(hero, 10, 5) == True
 
 
 def test2(benchmark):
     assert benchmark(hero, 10, 5) == True
-
 
 
 '''''''''

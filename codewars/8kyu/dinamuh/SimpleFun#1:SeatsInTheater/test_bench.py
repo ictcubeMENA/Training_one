@@ -1,5 +1,5 @@
 from main import seats_in_theater
-from main import seats_in_theater2
+
 
 def test(benchmark):
     assert benchmark(seats_in_theater, 1000, 1000, 1000, 1000) == 0
@@ -7,8 +7,6 @@ def test(benchmark):
 
 def test2(benchmark):
     assert benchmark(seats_in_theater, 1000, 1000, 1000, 1000) == 0
-
-
 
 
 '''''''''

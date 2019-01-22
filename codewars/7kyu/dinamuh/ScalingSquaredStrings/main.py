@@ -1,26 +1,21 @@
 def scale(strng, h, v):
     # your code
-    strin=""
-    if strng=="":
-       return ""
+    strin = ""
+    if strng == "":
+        return ""
     else:
-        arr=strng.split("\n")
+        arr = strng.split("\n")
         resarr = []
         for w in arr:
-            a=""
+            a = ""
             for c in w:
-                a += c*h
+                a += c * h
             resarr.append(a)
         finalarr = []
         for w in resarr:
             for i in range(v):
                 finalarr.append(w)
     return "\n".join(finalarr)
-
-
-
-
-
 
 
 def scale_horizontal(strng, k):

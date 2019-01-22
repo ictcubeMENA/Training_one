@@ -13,16 +13,14 @@ def oper(fct, s):
     return fct(s)
 
 
-
-
-
-
 def rot2(string):
     return string[::-1]
 
+
 def selfie_and_rot2(string):
-    s_dot = '\n'.join([ s+'.'*len(s) for s in string.split('\n') ])
-    return s_dot+'\n'+rot(s_dot)
+    s_dot = '\n'.join([s + '.' * len(s) for s in string.split('\n')])
+    return s_dot + '\n' + rot(s_dot)
+
 
 def oper2(fct, s):
     return fct(s)

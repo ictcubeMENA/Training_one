@@ -1,20 +1,17 @@
 from main import oper
-from main import rot
 from main import oper2
+from main import rot
 from main import rot2
 
 
 def test(benchmark):
-    assert benchmark(oper,rot, "fijuoo\nCqYVct\nDrPmMJ\nerfpBA\nkWjFUG\nCVUfyL")== "LyfUVC\nGUFjWk\nABpfre\nJMmPrD\ntcVYqC\nooujif"
-
+    assert benchmark(oper, rot,
+                     "fijuoo\nCqYVct\nDrPmMJ\nerfpBA\nkWjFUG\nCVUfyL") == "LyfUVC\nGUFjWk\nABpfre\nJMmPrD\ntcVYqC\nooujif"
 
 
 def test2(benchmark):
-    assert benchmark(oper2,rot2, "fijuoo\nCqYVct\nDrPmMJ\nerfpBA\nkWjFUG\nCVUfyL")== "LyfUVC\nGUFjWk\nABpfre\nJMmPrD\ntcVYqC\nooujif"
-
-
-
-
+    assert benchmark(oper2, rot2,
+                     "fijuoo\nCqYVct\nDrPmMJ\nerfpBA\nkWjFUG\nCVUfyL") == "LyfUVC\nGUFjWk\nABpfre\nJMmPrD\ntcVYqC\nooujif"
 
 
 ''''''''''

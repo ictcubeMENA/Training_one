@@ -1,9 +1,9 @@
 from main import get_age
 from main import get_age2
 
-def test(benchmark):
-    assert benchmark(get_age,"2 years old") == 2
 
+def test(benchmark):
+    assert benchmark(get_age, "2 years old") == 2
 
 
 def test2(benchmark):

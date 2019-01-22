@@ -6,7 +6,5 @@ def repeater(string, n):
     return stri
 
 
-
-
 def repeater2(string, n):
     return string * n

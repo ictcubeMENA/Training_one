@@ -1,15 +1,13 @@
 from main import how_much_i_love_you
 from main import how_much_i_love_you2
 
-def test(benchmark):
-    assert benchmark(how_much_i_love_you,7) =="I love you"
 
+def test(benchmark):
+    assert benchmark(how_much_i_love_you, 7) == "I love you"
 
 
 def test2(benchmark):
     assert benchmark(how_much_i_love_you2, 7) == "I love you"
-
-
 
 
 '''''''''

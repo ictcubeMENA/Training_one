@@ -1,16 +1,13 @@
 from main import capitalizeWord
 from main import capitalizeWord2
 
-def test(benchmark):
-    assert benchmark(capitalizeWord,'word') =='Word'
 
+def test(benchmark):
+    assert benchmark(capitalizeWord, 'word') == 'Word'
 
 
 def test2(benchmark):
     assert benchmark(capitalizeWord2, 'word') == 'Word'
-
-
-
 
 
 '''''''''''''''''''''''

@@ -1,18 +1,13 @@
 from main import isLeapYear
 from main import isLeapYear2
 
+
 def test(benchmark):
     assert benchmark(isLeapYear, 2000) == True, 'Year 2000 was a leap year!'
 
 
 def test2(benchmark):
     assert benchmark(isLeapYear2, 2000) == True, 'Year 2000 was a leap year!'
-
-
-
-
-
-
 
 
 '''''''''

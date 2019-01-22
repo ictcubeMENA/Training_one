@@ -1,18 +1,13 @@
 from main import jumping_number
 from main import jumping_number2
 
+
 def test(benchmark):
     assert benchmark(jumping_number, 79) == "Not!!"
 
 
 def test2(benchmark):
     assert benchmark(jumping_number2, 79) == "Not!!"
-
-
-
-
-
-
 
 
 '''''''''

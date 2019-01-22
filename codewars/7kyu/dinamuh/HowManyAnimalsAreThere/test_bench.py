@@ -1,5 +1,6 @@
-from main import count_animals
 from main import CountAnimals
+from main import count_animals
+
 
 def test(benchmark):
     assert benchmark(count_animals, "I see 3 zebras, 5 lions and 6 giraffes.") == 14, 'Live from the Savannah'
@@ -7,14 +8,6 @@ def test(benchmark):
 
 def test2(benchmark):
     assert benchmark(CountAnimals, "I see 3 zebras, 5 lions and 6 giraffes.") == 14, 'Live from the Savannah'
-
-
-
-
-
-
-
-
 
 
 '''''''''

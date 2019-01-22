@@ -1,18 +1,13 @@
 from main import repeater
 from main import repeater2
 
-def test(benchmark):
-    assert benchmark(repeater,'a', 5)== 'aaaaa'
 
+def test(benchmark):
+    assert benchmark(repeater, 'a', 5) == 'aaaaa'
 
 
 def test2(benchmark):
-    assert benchmark(repeater2,'a', 5)== 'aaaaa'
-
-
-
-
-
+    assert benchmark(repeater2, 'a', 5) == 'aaaaa'
 
 
 '''''''''

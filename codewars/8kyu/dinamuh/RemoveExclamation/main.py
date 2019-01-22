@@ -3,7 +3,5 @@ def remove_exclamation_marks(s):
     return s
 
 
-
-
 def remove_exclamation_marks2(s):
     return s.replace('!', '')

@@ -1,20 +1,13 @@
 from main import solution
 from main import solution2
 
+
 def test(benchmark):
     assert benchmark(solution, 'abcde', 'abc') == False
 
 
 def test2(benchmark):
     assert benchmark(solution2, 'abcde', 'abc') == False
-
-
-
-
-
-
-
-
 
 
 '''''''''

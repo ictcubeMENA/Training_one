@@ -1,13 +1,12 @@
 from main import set_alarm
-from main import set_alarm2
+
 
 def test(benchmark):
-    assert benchmark(set_alarm,False, True)== False, "Fails when input is False, True"
-
+    assert benchmark(set_alarm, False, True) == False, "Fails when input is False, True"
 
 
 def test2(benchmark):
-    assert benchmark(set_alarm,False, True)== False, "Fails when input is False, True"
+    assert benchmark(set_alarm, False, True) == False, "Fails when input is False, True"
 
 
 ''''''''''

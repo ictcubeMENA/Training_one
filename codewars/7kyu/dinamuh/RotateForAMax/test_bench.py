@@ -1,16 +1,13 @@
 from main import max_rot
 from main import max_rot2
 
-def test(benchmark):
-    assert benchmark(max_rot,38458215)== 85821534
 
+def test(benchmark):
+    assert benchmark(max_rot, 38458215) == 85821534
 
 
 def test2(benchmark):
-    assert benchmark(max_rot2,38458215)== 85821534
-
-
-
+    assert benchmark(max_rot2, 38458215) == 85821534
 
 
 '''''''''

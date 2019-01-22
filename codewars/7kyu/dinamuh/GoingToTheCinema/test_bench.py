@@ -1,23 +1,13 @@
 from main import movie
 from main import movie2
 
+
 def test(benchmark):
     assert benchmark(movie, 100, 10, 0.95) == 24
 
 
 def test2(benchmark):
     assert benchmark(movie2, 100, 10, 0.95) == 24
-
-
-
-
-
-
-
-
-
-
-
 
 
 '''''''''

@@ -1,14 +1,13 @@
-from main import double_integer
 from main import doubleInteger
+from main import double_integer
+
 
 def test(benchmark):
-    assert benchmark(double_integer,2)== 4
-
+    assert benchmark(double_integer, 2) == 4
 
 
 def test2(benchmark):
-    assert benchmark(doubleInteger,2)== 4
-
+    assert benchmark(doubleInteger, 2) == 4
 
 
 '''''''''

@@ -1,14 +1,13 @@
 from main import areYouPlayingBanjo
 from main import areYouPlayingBanjo2
 
+
 def test(benchmark):
-    assert benchmark(areYouPlayingBanjo,"martin") =="martin does not play banjo"
+    assert benchmark(areYouPlayingBanjo, "martin") == "martin does not play banjo"
 
 
 def test2(benchmark):
     assert benchmark(areYouPlayingBanjo2, "martin") == "martin does not play banjo"
-
-
 
 
 ''''''''''''''''

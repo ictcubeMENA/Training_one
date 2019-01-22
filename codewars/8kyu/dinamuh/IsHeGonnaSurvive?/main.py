@@ -1,9 +1,9 @@
 def hero(bullets, dragons):
-    mul=dragons*2
-    if bullets>=mul:
-       return True
+    mul = dragons * 2
+    if bullets >= mul:
+        return True
     else:
-       return False
+        return False
 
 
 def hero2(bullets, dragons):

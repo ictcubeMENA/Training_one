@@ -9,8 +9,5 @@ def duplicate_count(text):
     return len(y)
 
 
-
-
-
 def duplicate_count2(s):
-  return len([c for c in set(s.lower()) if s.lower().count(c)>1])
+    return len([c for c in set(s.lower()) if s.lower().count(c) > 1])

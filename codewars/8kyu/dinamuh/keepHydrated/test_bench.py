@@ -1,14 +1,13 @@
 from main import litres
 from main import litres2
 
-def test(benchmark):
-    assert benchmark(litres,2) == 1
 
+def test(benchmark):
+    assert benchmark(litres, 2) == 1
 
 
 def test2(benchmark):
     assert benchmark(litres2, 2) == 1
-
 
 
 ''''''''''  

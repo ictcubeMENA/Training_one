@@ -1,9 +1,7 @@
 from main import mxdiflg
-from main import mxdiflg2
 
 s1 = ["hoqq", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa", "xxwwkktt", "znnnnfqknaz", "qqquuhii", "dvvvwz"]
 s2 = ["cccooommaaqqoxii", "gggqaffhhh", "tttoowwwmmww"]
-
 
 
 def test(benchmark):
@@ -12,12 +10,6 @@ def test(benchmark):
 
 def test2(benchmark):
     assert benchmark(mxdiflg, s1, s2) == 13
-
-
-
-
-
-
 
 
 '''''''''

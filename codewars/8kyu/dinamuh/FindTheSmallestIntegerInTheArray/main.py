@@ -5,6 +5,5 @@ def find_smallest_int(arr):
     return x
 
 
-
 def findSmallestInt(arr):
     return min(arr)

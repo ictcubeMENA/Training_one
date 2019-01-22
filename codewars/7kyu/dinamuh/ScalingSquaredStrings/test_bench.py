@@ -1,17 +1,13 @@
 from main import scale
 from main import scale2
 
+
 def test(benchmark):
     assert benchmark(scale, "", 5, 5) == ""
 
 
 def test2(benchmark):
     assert benchmark(scale2, "", 5, 5) == ""
-
-
-
-
-
 
 
 '''''''''

@@ -20,7 +20,6 @@ def capitalize(s):
     return [ev, p]
 
 
-
 def capitalize2(s):
-    s = ''.join(c if i%2 else c.upper() for i,c in enumerate(s))
+    s = ''.join(c if i % 2 else c.upper() for i, c in enumerate(s))
     return [s, s.swapcase()]

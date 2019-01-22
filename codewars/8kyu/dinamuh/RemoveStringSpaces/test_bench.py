@@ -1,6 +1,7 @@
 from main import no_space
 from main import no_space2
 
+
 def test(benchmark):
     assert benchmark(no_space, 'jfBm  gk lf8hg  88lbe8 ') == 'jfBmgklf8hg88lbe8'
 

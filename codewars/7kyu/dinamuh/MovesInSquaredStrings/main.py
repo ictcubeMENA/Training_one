@@ -20,17 +20,13 @@ def oper(fct, s):
     return fct(s)
 
 
-
-
-
-
-
-
 def vert_mirror2(s):
     return "\n".join(line[::-1] for line in s.split("\n"))
 
+
 def hor_mirror2(s):
     return "\n".join(s.split("\n")[::-1])
+
 
 def oper2(fct, s):
     return fct(s)

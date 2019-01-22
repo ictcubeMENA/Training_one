@@ -1,13 +1,13 @@
 from main import getVolumeOfCubiod
 from main import get_volume_of_cuboid2
 
+
 def test(benchmark):
     assert benchmark(getVolumeOfCubiod, 6.3, 2, 5) == 63
 
 
 def test2(benchmark):
     assert benchmark(get_volume_of_cuboid2, 6.3, 2, 5) == 63
-
 
 
 '''''''''

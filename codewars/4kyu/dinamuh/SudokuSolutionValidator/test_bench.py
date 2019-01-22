@@ -1,5 +1,4 @@
 from main import validSolution
-from main import validSolution2
 
 
 def test(benchmark):

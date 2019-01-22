@@ -1,14 +1,13 @@
-from main import find_smallest_int
 from main import findSmallestInt
+from main import find_smallest_int
+
 
 def test(benchmark):
-    assert benchmark(find_smallest_int,[78, 56, 232, 12, 11, 43]) == 11
-
+    assert benchmark(find_smallest_int, [78, 56, 232, 12, 11, 43]) == 11
 
 
 def test2(benchmark):
     assert benchmark(findSmallestInt, [78, 56, 232, 12, 11, 43]) == 11
-
 
 
 '''''''''

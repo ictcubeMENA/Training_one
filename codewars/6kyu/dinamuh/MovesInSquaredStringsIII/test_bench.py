@@ -1,19 +1,17 @@
-from main import rot_90_clock
 from main import oper
-from main import rot_90_clock2
 from main import oper2
+from main import rot_90_clock
+from main import rot_90_clock2
+
 
 def test(benchmark):
-    assert benchmark(oper,rot_90_clock, "rgavce\nvGcEKl\ndChZVW\nxNWgXR\niJBYDO\nSdmEKb")=="Sixdvr\ndJNCGg\nmBWhca\nEYgZEv\nKDXVKc\nbORWle"
-
+    assert benchmark(oper, rot_90_clock,
+                     "rgavce\nvGcEKl\ndChZVW\nxNWgXR\niJBYDO\nSdmEKb") == "Sixdvr\ndJNCGg\nmBWhca\nEYgZEv\nKDXVKc\nbORWle"
 
 
 def test2(benchmark):
-    assert benchmark(oper2,rot_90_clock2, "rgavce\nvGcEKl\ndChZVW\nxNWgXR\niJBYDO\nSdmEKb")=="Sixdvr\ndJNCGg\nmBWhca\nEYgZEv\nKDXVKc\nbORWle"
-
-
-
-
+    assert benchmark(oper2, rot_90_clock2,
+                     "rgavce\nvGcEKl\ndChZVW\nxNWgXR\niJBYDO\nSdmEKb") == "Sixdvr\ndJNCGg\nmBWhca\nEYgZEv\nKDXVKc\nbORWle"
 
 
 '''''''''''

@@ -1,13 +1,13 @@
 from main import case_sensitive
 from main import case_sensitive2
 
-def test(benchmark):
-    assert benchmark(case_sensitive,'cellS')== [False, ['S']]
 
+def test(benchmark):
+    assert benchmark(case_sensitive, 'cellS') == [False, ['S']]
 
 
 def test2(benchmark):
-    assert benchmark(case_sensitive2,'cellS')== [False, ['S']]
+    assert benchmark(case_sensitive2, 'cellS') == [False, ['S']]
 
 
 '''''''''

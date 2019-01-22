@@ -1,14 +1,13 @@
 from main import remove_exclamation_marks
 from main import remove_exclamation_marks2
 
+
 def test(benchmark):
     assert benchmark(remove_exclamation_marks, "Hello World!") == "Hello World"
 
 
 def test2(benchmark):
     assert benchmark(remove_exclamation_marks2, "Hello World!") == "Hello World"
-
-
 
 
 '''''''''

@@ -1,6 +1,7 @@
 from main import compose
 from main import compose2
 
+
 def test(benchmark):
     assert benchmark(compose, "byGt\nhTts\nRTFF\nCnnI", "jIRl\nViBu\nrWOb\nNkTB") == "bNkTB\nhTrWO\nRTFVi\nCnnIj"
 

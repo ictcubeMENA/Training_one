@@ -1,4 +1,3 @@
-import unittest
 from main import remove_every_other
 
 

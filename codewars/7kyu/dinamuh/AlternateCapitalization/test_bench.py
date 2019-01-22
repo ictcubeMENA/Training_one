@@ -1,6 +1,7 @@
 from main import capitalize
 from main import capitalize2
 
+
 def test(benchmark):
     assert benchmark(capitalize, "codewars") == ['CoDeWaRs', 'cOdEwArS']
 

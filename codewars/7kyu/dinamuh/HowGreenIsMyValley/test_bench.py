@@ -1,23 +1,13 @@
 from main import make_valley
 from main import make_valley2
 
-def test(benchmark):
-    assert benchmark(make_valley,[20, 7, 6, 2])== [20, 6, 2, 7]
 
+def test(benchmark):
+    assert benchmark(make_valley, [20, 7, 6, 2]) == [20, 6, 2, 7]
 
 
 def test2(benchmark):
-    assert benchmark(make_valley2,[20, 7, 6, 2])== [20, 6, 2, 7]
-
-
-
-
-
-
-
-
-
-
+    assert benchmark(make_valley2, [20, 7, 6, 2]) == [20, 6, 2, 7]
 
 
 '''''''''

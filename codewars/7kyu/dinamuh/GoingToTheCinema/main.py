@@ -1,12 +1,14 @@
 import math
+
+
 def movie(card, ticket, perc):
     i = 1
     total = 0
-    while True :
-        total+=ticket*math.pow(perc,i)
-        if card+math.ceil(total)<i*ticket :
+    while True:
+        total += ticket * math.pow(perc, i)
+        if card + math.ceil(total) < i * ticket:
             break
-        i+=1
+        i += 1
     return i
 
 
