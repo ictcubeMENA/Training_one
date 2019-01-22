@@ -1,0 +1,1 @@
+solution('world') # returns 'dlrow'
