@@ -1,0 +1,17 @@
+= ICT CUBE training program
+:idprefix:
+:idseparator: -
+:sectanchors:
+:sectlinks:
+:sectnumlevels: 6
+:sectnums:
+:toc: macro
+:toclevels: 6
+:toc-title:
+
+This repository contains https://github.com/ictcubeMENA/[ICT CUBE] training program.
+
+toc::[]
+
+== Getting Started
+== Codewars
