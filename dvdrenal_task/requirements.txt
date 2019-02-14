@@ -1,0 +1,8 @@
+djangorestframework
+django
+# REQUIRED
+pip install django
+pip install djangorestframework
+# Postgres
+pip install pillow
+pip install psycopg2
