@@ -1,0 +1,41 @@
+version: '2.3'
+
+services:
+  db:
+    build:
+      context: ./db
+    healthcheck:
+      test: (pg_isready -U postgres -d postgres && echo $$?) || exit 1
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+       - back-tier
+  web:
+    build:
+      context: ./app
+    command: python3 manage.py runserver 0.0.0.0:8000
+    ports:
+      - "8000:8000"
+    networks:
+       - front-tier
+       - back-tier
+    depends_on:
+      db:
+        condition: service_healthy
+  lb:
+    image: dockercloud/haproxy
+    ports:
+        - 80:80
+    links:
+        - web
+    networks:
+        - front-tier
+        - back-tier
+    volumes:
+        - /var/run/docker.sock:/var/run/docker.sock 
+networks:
+    front-tier:
+      driver: bridge
+    back-tier:
+      driver: bridge          
