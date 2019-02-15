@@ -1,0 +1,39 @@
+version: '2.2'
+services:  
+  nginx:
+    image: nginx:latest
+    container_name: nz01
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./src:/src
+      - ./config/nginx:/etc/nginx/conf.d
+    depends_on:
+      - web
+  web:
+    build: .
+#    container_name: dz01
+    depends_on:
+      - db
+    volumes:
+      - ./src:/src
+    expose:
+      - "8000"
+#    scale: 4
+    links:
+      - redis
+  db:
+    image: postgres:latest
+    build: ./database/
+    container_name: pz01
+  redis:
+    image: redis:latest
+    container_name: rz01
+    ports:
+     - '6379:6379'
+
+#  test:
+#    build: ./test/
+#    depends_on:
+#        - web
+#    command: ./runLocust.sh
