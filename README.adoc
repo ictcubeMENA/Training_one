@@ -15,3 +15,6 @@ toc::[]
 
 == Getting Started
 == Codewars
+== DVD Rental
+== Google Chrome Extension
+
